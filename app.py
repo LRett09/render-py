@@ -9,7 +9,7 @@ MAGIC_WORD = 'fred'
 @app.route('/', methods=['GET', 'POST'])
 def index():
     # Default message when first loading the page (GET request)
-    result = "<span style='color:red'> Try the magic word 'fred'</span>"
+    result = "<span style='color:orange'> Try the magic word 'fred'</span>"
     
     # Logic for handling form submission (POST request)
     if request.method == 'POST':
