@@ -17,9 +17,9 @@ def index():
         my_input = request.form.get('myText01')
         
         if my_input == MAGIC_WORD:
-            result = "<b style='color:green'> Cool! </b>"
+            result = "<b style='color:blue'> Cool! </b>"
         else:
-            result = "<span style='color:red'> Try the magic word 'fred'</span>"
+            result = "<span style='color:orange'> Try the magic word 'fred'</span>"
 
     # HTML template with the dynamic result
     html_content = f"""
